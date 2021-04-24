@@ -1,0 +1,72 @@
+{"intents": [
+       {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+{"tag": "made",
+         "patterns": ["who made you?"],
+         "responses": ["Akash musk"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": [" By Explaining something about software engineering?"],
+         "context": [""]
+        },
+ {"tag": "Software_engineering",
+         "patterns": ["What is Software engineering?", "Tell me about Software engineering.",  " Software engineering?" ],
+         "responses": ["Software engineering is defined as a process of analyzing user requirements and then designing, building and testing software application which will satisfy those requirements","software engineering as the application of a systematic, disciplined, which is a  computable approach for the development, operation, and maintenance of software."],
+         "context": [""]
+        },
+
+     {"tag": "know",
+         "patterns": ["do you know me?", " may i know who are you?","may i know you?" ],
+         "responses": ["i am chatbot designed to tell u about software engineering."],
+         "context": [""]
+        } ,
+       {"tag": "software_process",
+         "patterns": ["what is a software process", " define software process","tell me about software process." ],
+         "responses": [" Software process are communication, planning, modeling, construction, Deployment"],
+         "context": [""]
+        } ,
+
+         {"tag": "agile",
+         "patterns": ["what is agile process model?", "can you throw some light on agile process model?","agile model?" ],
+         "responses": [" Agile process model emphasize project agility and follow a set of principles that lead to a more informal approach to software process. It emphasizes maneuverability and adaptability. It is particularly useful when Web applications are engineered."],
+         "context": [""]
+        } ,
+       
+         {"tag": "functional_requirement",
+         "patterns": ["what are functional requirement?", "do you know functional requirement","functioanl requirement?" ],
+         "responses": [" A Functional Requirement is a description of the service that the software must offer. It describes a software system or its component. A function is nothing but inputs to the software system, its behavior, and  outputs. It can be a calculation, data manipulation, business process, user interaction, or any other specific functionality which defines what function a system is likely to perform.Functional Requirements are also called Functional Specification."],
+         "context": [""]
+        },
+       {"tag": "non_functional_requirement",
+         "patterns": ["what are non functional requirement?", "do you know non  functional requirement","non functioanl requirement?" ],
+         "responses": ["A non-functional requirement defines the quality attribute of a software system. They represent a set of standards used to judge the specific operation of a system. Example, how fast does the website load? A non-functional requirement is essential to ensure the usability and effectiveness of the entire software system. Failing to meet non-functional requirements can result in systems that fail to satisfy user needs. "],
+         "context": [""]
+        },
+        {"tag": "functional_requirement_and_non_functional_requirement",
+         "patterns": ["differnece between  functional requirement and non functional requriement?", " do you know differnece between functional requirement  and non functional requirment?" ],
+         "responses": [" A functional requirement defines a system or its component whereas a non-functional requirement defines the performance attribute of a software. Functional requirements along with requirement analysis help identify missing requirements while the advantage of Non-functional requirement is that it helps you to ensure good user experience and ease of operating the software.Functional Requirement is a verb while Non-Functional Requirement is an attribute Types of Non-functional requirement are Scalability Capacity, Availability, Reliability, Recoverability, Data Integrity,etc.whereas transaction corrections, adjustments, and cancellations, Business Rules, Certification Requirements, Reporting Requirements, Administrative functions, Authorization levels,Audit Tracking, External Interfaces, Historical Data management, Legal or Regulatory Requirements are various types of functional requirements. "],
+         "context": [""]
+        }
+        
+   ]
+}
